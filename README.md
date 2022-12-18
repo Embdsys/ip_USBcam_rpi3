@@ -10,7 +10,9 @@ https://www.sigmdel.ca/michel/ha/rpi/streaming_en.html\n
 Updated instructions:\n
 https://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi
 
-Need to copy files from the build mjpg-streamer folder into the system files
+Need to build the downloaded .zip using make install and then cp files to system
+
+**Need to copy files from the build mjpg-streamer folder into the system files**
 sudo cp mjpg_streamer /usr/local/bin    \n
 sudo cp output_http.so input_file.so /usr/local/lib/     \n
 sudo cp -R www /usr/local/www       \n
