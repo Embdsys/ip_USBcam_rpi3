@@ -4,8 +4,8 @@ To access the USB camera connected to the RPI over IP, in your browser go to:
 
 http://123.123.10.123:8085/index.html
 
-Follow this guide if you encounter issues:\n
-https://www.sigmdel.ca/michel/ha/rpi/streaming_en.html\n
+Follow this guide if you encounter issues:
+https://www.sigmdel.ca/michel/ha/rpi/streaming_en.html
 
 Updated instructions:\n
 https://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi
