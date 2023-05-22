@@ -12,4 +12,5 @@ sudo cp output_http.so input_file.so /usr/local/lib/
 sudo cp -R www /usr/local/www
 mkdir /tmp/stream
 #Run stream on port 8080
-LD_LIBRARY_PATH=/usr/local/lib mjpg_streamer -i "input_file.so -f /tmp/stream -n pic.jpg" -o "output_http.so -w /usr/local/www" 
+#NOTE May/2023 If there is no feed on the camera try changing the /dev/video1 to your devices location (find it using ls /dev/video)
+LD_LIBRARY_PATH=/usr/local/lib mjpg_streamer -i "input_uvc.so -d /dev/video1" -o "output_http.so -w /usr/local/www" 
