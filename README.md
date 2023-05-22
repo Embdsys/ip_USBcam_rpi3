@@ -1,3 +1,7 @@
+**UPDATE MAY/2023**
+If the server loads but there is no feed, try to change the .sh file at the end to match you /dev/video#
+After that it should work by running the .sh file
+
 **This bash script will install MJPG-STREAMER on your RPi3**
 
 To access the USB camera connected to the RPI over IP, in your browser go to:
